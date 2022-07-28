@@ -2,6 +2,7 @@ name: 2022-08-01-uproot-awkward-columnar-hats
 channels:
    - conda-forge
 dependencies:
+   - python-3.9
    - uproot==4.3.3
    - awkward==1.8.0
    - pyarrow==8.0.0
