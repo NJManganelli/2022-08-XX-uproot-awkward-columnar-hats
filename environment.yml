@@ -2,18 +2,18 @@ name: 2022-08-01-uproot-awkward-columnar-hats
 channels:
    - conda-forge
 dependencies:
-   - awkward
-   - pyarrow
-   - numpy
-   - scipy
-   - matplotlib
-   - pandas
-   - hist
-   - numba
-   - xrootd
-   - root
-   - pip
+   - awkward==1.8.0
+   - pyarrow==8.0.0
+   - numpy==1.21.6
+   - scipy==1.7.3
+   - matplotlib==3.5.2
+   - pandas==1.3.5
+   - hist==2.6.1
+   - numba==0.55.2
+   - xrootd==5.4.3
+   - root==6.26*
+   - pip==22.2.1
    - pip:
-       - uproot
-       - particle
-       - vector
+       - uproot==4.3.3
+       - particle==0.20.1
+       - vector==0.8.5
