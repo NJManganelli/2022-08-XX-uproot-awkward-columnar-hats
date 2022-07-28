@@ -3,7 +3,6 @@ channels:
    - conda-forge
 dependencies:
    - python-3.9
-   - uproot==4.3.3
    - awkward==1.8.0
    - pyarrow==8.0.0
    - numpy==1.21.*
@@ -11,12 +10,11 @@ dependencies:
    - matplotlib==3.5.2
    - pandas==1.4.3
    - hist==2.6.1
-   - vector=0.8.5
    - numba
    - xrootd==5.4.3
    - root==6.26.4
-   - particle==0.20.1
    - pip==22.2.1
-   # - pip:
-   #     - particle==0.20.1
-   #     - vector==0.8.5
+   - pip:
+       - uproot==4.3.3
+       - particle==0.20.1
+       - vector==0.8.5
